@@ -1,0 +1,206 @@
+body{
+	margin:0;
+	background-color: #F6F2E2; 
+    overflow: hidden;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#world {
+    margin-top: 1vw;
+}
+
+.settings {
+    width: max-content;
+    height: 5vw;
+    position: absolute;
+    padding: 0 2vw;
+    left: 76vw;
+    top: 1vw;
+    background-color: #FFFEF4;
+    border-radius: 2vw;
+}
+
+.settings img {
+    width: 3vw;
+    position: relative;
+    margin: 0.3vw;
+    top: 0.5vw;
+    float: left;
+}
+
+
+.pic {
+    width: 88%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.boy {
+    z-index: 1;
+    position: absolute;
+    width: 33vw;
+    left: 48vw;
+    top: 15.6vw;
+}
+
+.c {
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    left: 46vw;
+    top: 4vw;
+    text-align: center;
+    font-size: 8vw;
+    z-index: 2;
+    color: #BAB1C0;
+}
+
+.thoughtCloud {
+    position: absolute;
+    z-index: 1;
+    top: 2vw;
+    left: 49vw;
+    width: 15vw;
+}
+
+.pbg {
+     width: 85vw;
+    height: 47.8vw;
+    margin: 0 auto;
+    display: block;
+}
+
+.player1 {
+    position: absolute;
+    width: 4vw;
+    top: 20vw;
+    left: 76vw;
+    opacity: 0.04;
+    z-index: 2;
+}
+
+.player2 {
+    position: absolute;
+    width: 14vw;
+    top: 37vw;
+    z-index: 0;
+    left: 14vw;
+    opacity: 0.1;
+}
+
+.player3 {
+   position: absolute;
+    width: 5vw;
+    top: 21vw;
+    left: 8vw;
+    opacity: 0.08;
+    z-index: 2;
+}
+
+.player4 {
+    position: absolute;
+    width: 7vw;
+    top: 27.5vw;
+    left: 38vw;
+    opacity: 0.07;
+    z-index: 0;
+}
+
+.score {
+    position: absolute;
+    width: 15vw;
+    height: 5vw;
+    line-height: 5vw;
+    font-size: 4vw;
+    border-radius: 2vw;
+    text-align: center;
+    top: 1vw;
+    left: 42.5vw;
+    color: #919299;
+    background-color: #FFFEF4;
+}
+
+.lvlTime {
+    position: absolute;
+    text-align: center;
+    line-height: 5vw;
+    font-size: 3vw;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 5vw;
+    top: 1vw;
+    left: 9vw;
+    background-color: #FFFEF4;
+    color: #919299;
+}
+
+.final, .lose {
+    z-index: 5;
+    position: absolute;
+    width: 32vw;
+    height: 18vw;
+    border: 0.3vw solid #919299;
+    top: 12vw;
+    left: 33.7vw;
+    background-color: #FFFEF4;
+    border-radius: 2vw;
+    text-align: center;
+    color: #919299;
+    font-size: 5vw;
+}
+
+.txt {
+    position: relative;
+    width: 30vw;  
+    top: 1vw;
+}
+
+.ic {
+    width: 5vw;
+    margin: 0 1vw;
+    position: relative;
+    top: 1vw;
+}
+
+.ic:hover, .settings img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.firsttxt {
+    z-index: 5;
+    position: absolute;
+    width: 32vw;
+    height: 18vw;
+    border: 0.3vw solid #919299;
+    top: 12vw;
+    left: 33.7vw;
+    background-color: #FFFEF4;
+    border-radius: 2vw;
+    text-align: center;
+    color: #919299;
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+
+.btn {
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2vw;
+    border: 0;
+    background-color: #919299;
+    color: #FFFEF4;
+    font-size: 1.5vw;
+    outline:0;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #FFFEF4;
+    color: #919299;
+    border: solid 0.2vw #919299;
+    outline:0;
+}
+

@@ -1,0 +1,129 @@
+body{
+  background-image: url("images/bg.png");
+  background-size: 100vw;
+  margin: 0;
+  /*overflow:hidden;*/
+}
+
+.settings {
+    width: max-content;
+    height: 5vw;
+    position: absolute;
+    padding: 0 2vw;
+    left: 76vw;
+    top: 1vw;
+    background-color: #FFFEF4;
+    border-radius: 2vw;
+}
+
+.settings img {
+    width: 3vw;
+    position: relative;
+    margin: 0.3vw;
+    top: 0.5vw;
+    float: left;
+}
+
+.settings img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.cont{
+    width: 50vw;
+    height: 48vw;
+    margin: 1vw auto 0;
+    background-image: url(images/paper.png);
+    padding-top: 9vw;
+    background-repeat: no-repeat;
+    background-size: 37vw;
+}
+.boxes {
+    width: 30vw;
+    height: 29.5vw;
+    margin: -4vw auto;
+    background-image: url(images/grid.png);
+    background-size: 30vw;
+    left: 27.8vw;
+    position: absolute;
+}
+.cont .box{
+  width: 10vw;
+  height: 10vw;
+  margin: 0;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: #6764a5;
+  font-size: 8vw;
+  line-height: 10vw;
+}
+
+.crumpledPaper {
+	position: absolute;
+    width: 22vw;
+    top: 10vw;
+    left: 71vw;
+}
+
+.pen {
+    position: absolute;
+    width: 3vw;
+    top: 26vw;
+    left: 82vw;
+    transform: rotate(135deg);
+}
+
+.papers {
+    position: absolute;
+    top: 2vw;
+    width: 14vw;
+}
+.x {
+  position: absolute;
+  width: 7vw;
+  left: 90vw;
+  top: 2vw;
+  opacity: 0.5;
+}
+.x:hover {
+  cursor: pointer;
+}
+
+
+.firsttxt {
+    z-index: 5;
+    position: absolute;
+    width: 27vw;
+    height: 13vw;
+    border: 0.3vw solid #919299;
+    top: 12vw;
+    left: 33.7vw;
+    background-color: #FFFEF4;
+    border-radius: 2vw;
+    text-align: center;
+    color: #919299;
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+
+.btn {
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2vw;
+    border: 0;
+    background-color: #919299;
+    color: #FFFEF4;
+    font-size: 1.5vw;
+    outline:0;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #FFFEF4;
+    color: #919299;
+    border: solid 0.2vw #919299;
+    outline:0;
+}

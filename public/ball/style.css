@@ -1,0 +1,237 @@
+* {
+ box-sizing: border-box;
+}
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+body{
+	margin:0;
+	overflow:hidden;
+	background-color:#bbb1a3;
+
+}
+#world{
+
+	width:80%;
+	height: 600px;
+	background-size: 100%;
+ 	background-color: transparent;
+    margin: auto;
+    border-radius: 5vw;
+    background-repeat: no-repeat;
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);*/
+    overflow: hidden;
+    position: relative;
+    top: 1vw;
+	
+}
+
+.settings {
+    width: 15vw;
+    height: 5vw;
+    position: absolute;
+    padding: 0 2vw;
+    left: 63vw;
+    top: 2vw;
+    background-color: #FFFEF4;
+    border-radius: 2vw;
+}
+
+.settings img {
+    width: 3vw;
+    position: relative;
+    margin: 0.3vw;
+    top: 0.5vw;
+    float: left;
+}
+
+#pic{
+
+	position: relative;
+    top: 0px;
+	height:100%;
+	left:0px;
+}
+
+.playerDiv
+{
+	width:150px;
+	height: 168px;
+    top: 230px;
+    left: 20px;
+	display:inline-block;
+	position:absolute;
+	background-size:100%;
+	z-index:1;
+	background-repeat: no-repeat;
+}
+
+#character
+{
+	background-image:url("gifs/1.gif");
+}
+#player
+{
+	background-image:url("gifs/1.gif");
+}
+#playerleft
+{
+	background-image:url("gifs/rotate.gif");
+}
+#playerbackup
+{
+	background-image:url("gifs/rotate.gif");
+}
+
+#floor{
+	width: 4500px;
+    height: 40px;;
+    top: 394px;
+    left: 0px;
+	position:absolute;
+	/*border:1px solid black;*/
+
+
+}
+
+.ants
+{
+    width: 51px;
+    height: 67px;
+	display:inline-block;
+	position:absolute;
+	background-size:100%;
+	background-image:url('gifs/ant.png');
+}
+
+.stones
+{
+    width: 44px;
+    height: 37px;
+	display:inline-block;
+	position:absolute;
+	background-size:100%;
+	background-image:url('gifs/stone.png');
+}
+
+#stone1 {
+	top: 369px;;
+	left:1000px;
+}
+#ant1{
+	top: 339px;
+	left: 1900px;
+}
+#stone2{
+	top: 369px;
+	left: 2500px;
+}
+#ant2{
+	top: 339px;
+	left: 3000px;
+}
+#stone3{
+	top: 369px;
+	left: 3500px;
+}
+#ant3{
+	top: 339px;
+	left: 4100px;
+}
+#stone4{
+	top: 369px;
+	left: 500px;
+}
+#ant4{
+	top: 339px;
+	left: 1450px;
+}
+
+#ball {
+	display: inline-block;
+    position: absolute;
+    background-size:80%;
+    background-image: url(gifs/ball.png);
+    width: 64px;
+    height: 73px;
+    top: 355px;
+    left: 4400px;
+    background-repeat: no-repeat;
+}
+
+.final, .lose {
+    z-index: 5;
+    position: absolute;
+    width: 32vw;
+    height: 18vw;
+    border: 0.3vw solid #919299;
+    top: 12vw;
+    left: 33.7vw;
+    background-color: #FFFEF4;
+    border-radius: 2vw;
+    text-align: center;
+    color: #919299;
+    font-size: 5vw;
+}
+
+.txt {
+    position: relative;
+    width: 30vw;  
+    top: 1vw;
+}
+
+.ic {
+    width: 5vw;
+    margin: 0 1vw;
+    position: relative;
+    top: 1vw;
+}
+
+.ic:hover, .settings img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.firsttxt {
+    z-index: 5;
+    position: absolute;
+    width: 38vw;
+    height: 18vw;
+    border: 0.3vw solid #919299;
+    top: 12vw;
+    left: 33.7vw;
+    background-color: #FFFEF4;
+    border-radius: 2vw;
+    text-align: center;
+    color: #919299;
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+
+
+.btn {
+    width: 10vw;
+    height: 3vw;
+    border-radius: 2vw;
+    border: 0;
+    background-color: #919299;
+    color: #FFFEF4;
+    font-size: 1.5vw;
+    outline:0;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #FFFEF4;
+    color: #919299;
+    border: solid 0.2vw #919299;
+    outline:0;
+}
