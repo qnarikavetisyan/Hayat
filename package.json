@@ -1,22 +1,25 @@
 {
-  "name": "Hayat",
+  "name": "hayat",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/qnarikavetisyan/Hayat.git"
+    "url": "git+https://github.com/qnarikavetisyan/Hayat.git"
   },
   "author": "qnarikavetisyan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qnarikavetisyan/Hayat/issues"
+  },
+  "homepage": "https://github.com/qnarikavetisyan/Hayat/menu/index.html",
   "dependencies": {
     "express": "^4.16.3"
   },
   "engines": {
-    "node": "4.7.2"
+    "node": "8.11.4"
   }
 }
